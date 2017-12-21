@@ -23,3 +23,4 @@ Generative Adversarial Network designed to produce realistic human faces after b
 
 * The current GAN makes realistic enough faces, but further hyperparameter optimization is needed. 
 * [DRAW: A Recurrent Neural Network For Image Generation](https://arxiv.org/pdf/1502.04623.pdf) has demonstrated promising results on the  MNIST generation task. Next step will involve applying this model to the CelebA dataset.
+* Refactoring the code to make use of Google Brain's [TFGAN](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/gan) library will [make future modifications easier](https://research.googleblog.com/2017/12/tfgan-lightweight-library-for.html), as well as [provide more useful metrics of performance](https://datahub.packtpub.com/deep-learning/google-opensources-tensorflow-gan-tfgan-library-for-generative-adversarial-networks-neural-network-model/).
