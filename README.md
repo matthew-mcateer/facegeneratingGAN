@@ -18,3 +18,8 @@ Generative Adversarial Network designed to produce realistic human faces after b
 ### Contribution guidelines ###
 
 * This repository can easily be forked and contributed to on Github. Feel free to send a pull request.
+
+### Future Steps ###
+
+* The current GAN makes realistic enough faces, but further hyperparameter optimization is needed. 
+* [DRAW: A Recurrent Neural Network For Image Generation](https://arxiv.org/pdf/1502.04623.pdf) has demonstrated promising results on the  MNIST generation task. Next step will involve applying this model to the CelebA dataset.
